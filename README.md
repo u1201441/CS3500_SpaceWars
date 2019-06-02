@@ -1,1 +1,1 @@
-This is a very simple space shooting game with network capability (both network and client included.) This project was a collaboration between Chris Jones and John Jacobson for the CS3500 course project in Fall 2018 semester at University of Utah.
+This is a very simple space shooting game with network capability (both server and client included.) This project was a collaboration between Chris Jones and John Jacobson for the CS3500 course project in Fall 2018 semester at University of Utah.
