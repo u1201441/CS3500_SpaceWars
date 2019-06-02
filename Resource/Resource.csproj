@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5BA3B788-AE7F-4A3F-AF9D-1E11606CA5C9}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Resource</RootNamespace>
+    <AssemblyName>Resource</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Background.jpeg" />
+    <Content Include="Assets\MarioBG.jpeg" />
+    <Content Include="Assets\MarioFireball.png" />
+    <Content Include="Assets\MarioShip.png" />
+    <Content Include="Assets\MarioStar.png" />
+    <Content Include="Assets\ship-coast-blue.png" />
+    <Content Include="Assets\ship-coast-brown.png" />
+    <Content Include="Assets\ship-coast-green.png" />
+    <Content Include="Assets\ship-coast-grey.png" />
+    <Content Include="Assets\ship-coast-red.png" />
+    <Content Include="Assets\ship-coast-violet.png" />
+    <Content Include="Assets\ship-coast-white.png" />
+    <Content Include="Assets\ship-coast-yellow.png" />
+    <Content Include="Assets\ship-thrust-blue.png" />
+    <Content Include="Assets\ship-thrust-brown.png" />
+    <Content Include="Assets\ship-thrust-green.png" />
+    <Content Include="Assets\ship-thrust-grey.png" />
+    <Content Include="Assets\ship-thrust-red.png" />
+    <Content Include="Assets\ship-thrust-violet.png" />
+    <Content Include="Assets\ship-thrust-white.png" />
+    <Content Include="Assets\ship-thrust-yellow.png" />
+    <Content Include="Assets\shot-blue.png" />
+    <Content Include="Assets\shot-brown.png" />
+    <Content Include="Assets\shot-green.png" />
+    <Content Include="Assets\shot-grey.png" />
+    <Content Include="Assets\shot-red.png" />
+    <Content Include="Assets\shot-violet.png" />
+    <Content Include="Assets\shot-white.png" />
+    <Content Include="Assets\shot-yellow.png" />
+    <Content Include="Assets\star_1blue_giant01.png" />
+    <Content Include="Assets\star_4blue_giant02.png" />
+    <Content Include="Assets\star_7blue_giant03.png" />
+    <Content Include="Assets\star_blue_giant04.png" />
+    <Content Include="Assets\star_2red_giant01.png" />
+    <Content Include="Assets\star_5red_giant02.png" />
+    <Content Include="Assets\star_8red_giant03.png" />
+    <Content Include="Assets\star_red_giant04.png" />
+    <Content Include="Assets\star_3white_giant01.png" />
+    <Content Include="Assets\star_6white_giant02.png" />
+    <Content Include="Assets\star_9white_giant03.png" />
+    <Content Include="Assets\star_white_giant04.png" />
+    <Content Include="README-Server.txt" />
+    <Content Include="README.txt" />
+    <Content Include="settings.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

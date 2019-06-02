@@ -1,0 +1,40 @@
+<SpaceSettings>
+  <UniverseSize>750</UniverseSize>
+  <MSPerFrame>16</MSPerFrame>
+  <FramesPerShot>6</FramesPerShot>
+  <FireSpeed>15</FireSpeed>
+  <RespawnRate>300</RespawnRate>
+  <Boss>
+    <enabled>0</enabled>
+    <health>30</health>
+  </Boss>
+  <Ship>
+    <accel>0.08</accel>
+    <turn>2</turn>
+    <size>20</size>
+    <health>5</health>
+  </Ship>
+  <Star>
+    <x>0</x>
+    <y>0</y>
+    <mass>0.01</mass>
+    <size>35</size>
+  </Star>
+
+  <!-- We can add other stars too (or none) 
+  <Star>
+    <x>100</x>
+    <y>100</y>
+    <mass>0.005</mass>
+  </Star>
+ -->
+
+
+
+
+
+
+  
+
+
+</SpaceSettings>
